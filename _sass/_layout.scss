@@ -427,7 +427,7 @@ pre code.hljs {
 		@include outer-container; 
 
 		/* Aligne parfaitement avec le header */
-		width: 60% !important;
+		width: 70% !important;
 		max-width: 1200px !important;
 		margin: 0 auto !important;
 	}
@@ -446,6 +446,7 @@ pre code.hljs {
 			margin-right: 0;
 		}
 		font-size: 0.9em;
+		font-size: 1em;
 		i {
 			width: 1.25em;
 			text-align: center;
@@ -456,6 +457,7 @@ pre code.hljs {
 			margin-top: 0;
 		}
 		font-size: 0.9em;
+		font-size: 1em;
 		i {
 			width: 1.25em;
 			text-align: right;
