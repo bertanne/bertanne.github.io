@@ -452,6 +452,7 @@ pre code.hljs {
 		
 		/* 1. Règle générale pour le bloc */
 		font-size: 0.9em !important; 
+		font-family: inherit !important;
 
 		/* 2. Force le titre "Contact" à avoir la même taille et police */
 		h1, h2, h3, h4, h5, h6, .footer-heading {
