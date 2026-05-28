@@ -9,8 +9,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Anne Bertrand 
-subtitle: "Linguiste"
+title: Anne Bertrand | Linguiste
+subtitle: ""
 email: anne.b.bertrand@gmail.com
 name: Anne Bertrand
 description: >
