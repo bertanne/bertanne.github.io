@@ -151,9 +151,15 @@ pre code.hljs {
 }
 	/*
   .navigation-wrapper {
-  	@include outer-container;
-    @include clearfix;
-    position: relative;
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  width: 75%; 
+
+  max-width: 1200px; 
+  
+  margin: 0 auto; 
   }*/
   .logo {
     display: flex;
