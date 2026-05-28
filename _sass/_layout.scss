@@ -144,12 +144,13 @@ pre code.hljs {
     }
   }
   // Nav menu
+/*
 	.navigation-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-	/*
+	*/
   .navigation-wrapper {
 	display: flex;
   justify-content: space-between;
@@ -160,7 +161,7 @@ pre code.hljs {
   max-width: 1200px; 
   
   margin: 0 auto; 
-  }*/
+  }
   .logo {
     display: flex;
     align-items: center;
