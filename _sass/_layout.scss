@@ -437,6 +437,54 @@ pre code.hljs {
 	/*
 	*	Contact Info (left/center)
 	*/
+	/*
+	*	Contact Info (left/center)
+	*/
+	.site-contact {
+		margin-top: 1em;
+		@include span-columns(12);
+		@include media ($mobile) {
+			@include span-columns(6);
+			margin-top: 0;
+			margin-right: 0;
+		}
+		@include media ($tablet) {
+			@include span-columns(6); 
+			margin-top: 0;
+		}
+		
+		/* 1. Règle générale pour le bloc */
+		font-size: 0.9em !important; 
+
+		/* 2. Force le titre "Contact" à avoir la même taille et police */
+		h1, h2, h3, h4, h5, h6, .footer-heading {
+			font-size: 1em !important; /* Reçoit le 0.9em du bloc parent */
+			font-weight: normal !important; /* Enlève le gras (écrivez bold si vous préférez du gras partout) */
+			text-transform: none !important; /* Enlève les majuscules forcées par le thème */
+			margin-bottom: 0.5em; /* Ajoute un petit espace sous le mot Contact */
+		}
+
+		/* 3. Force les liens (courriel et LinkedIn) à faire la même taille */
+		a {
+			font-size: 1em !important;
+			font-weight: normal !important;
+		}
+
+		/* 4. Force les puces de la liste (si utilisées) */
+		li {
+			font-size: 1em !important;
+			font-weight: normal !important;
+		}
+		
+		i {
+			width: 1.25em;
+			text-align: center;
+		}
+		ul {
+			@extend %default-ul;
+		}
+	}
+	/*
 	.site-contact {
 		margin-top: 1em;
 		@include span-columns(12);
@@ -465,7 +513,7 @@ pre code.hljs {
 		ul {
 			@extend %default-ul;
 		}
-	}
+	}*/
 	/*
 	*	Site Description/Signature (right)
 	*/
