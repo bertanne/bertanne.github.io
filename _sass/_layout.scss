@@ -476,9 +476,9 @@ pre code.hljs {
 			/* Signale à la grille Bourbon Neat que c'est le dernier bloc de la ligne */
 			margin-right: 0 !important; 
 			margin-top: 0;
-			text-align: right;
+			text-align: right !important;
 		}
-		font-size: 0.7em;
+		font-size: 0.7em !important;
 		a {
 			text-decoration: underline;
 		}
