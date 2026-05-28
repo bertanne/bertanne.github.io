@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Posts"
-permalink: /posts/
+title: "Recherche"
+permalink: /recherche/
 main_nav: true
 ---
 
+<!--
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
   <h2 id="{{cat}}">{{ cat | capitalize }}</h2>
@@ -26,3 +27,4 @@ main_nav: true
   {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
 <br>
+-->
