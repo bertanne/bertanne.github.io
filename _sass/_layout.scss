@@ -435,6 +435,49 @@ pre code.hljs {
 
 	}
 	/*
+	*	Contact Info (left/center)
+	*/
+	.site-contact {
+		margin-top: 1em;
+		@include span-columns(12);
+		@include media ($mobile) {
+			@include span-columns(6);
+			margin-top: 0;
+			margin-right: 0;
+		}
+		@include media ($tablet) {
+			/* Passe de 4 à 6 pour occuper la moitié de l'espace */
+			@include span-columns(6); 
+			margin-top: 0;
+		}
+		font-size: 0.9em;
+		i {
+			width: 1.25em;
+			text-align: center;
+		}
+		ul {
+			@extend %default-ul;
+		}
+	}
+	/*
+	*	Site Description/Signature (right)
+	*/
+	.site-signature {
+		margin-top: 1em;
+		@include span-columns(12);
+		@include media ($tablet) {
+			/* Passe de 4 à 6 pour occuper l'autre moitié */
+			@include span-columns(6);
+			/* Signale à la grille Bourbon Neat que c'est le dernier bloc de la ligne */
+			margin-right: 0 !important; 
+			margin-top: 0;
+		}
+		font-size: 0.9em;
+		a {
+			text-decoration: underline;
+		}
+	}
+	/*
 	*	Site Navigation (left)
 	*/
 	/*
@@ -451,7 +494,7 @@ pre code.hljs {
 			@extend %default-ul;
 		}
 	}
-	*/
+}
 	/*
 	*	Contact Info (center)
 	*/
@@ -493,3 +536,4 @@ pre code.hljs {
 		}
 	}
 }
+*/
