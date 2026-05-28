@@ -251,10 +251,8 @@ pre code.hljs {
 	.wrapper {
 		@include outer-container; 
 		
-		/* Aligne parfaitement avec le header */
-		width: 75%;
-		max-width: 1200px;
-		margin: 0 auto;
+			@include outer-container;
+		padding: 1em;
 		
 	}
 	/*
@@ -426,7 +424,12 @@ pre code.hljs {
 	  }
 	}
 	.wrapper {
-		@include outer-container;
+		@include outer-container; 
+
+		/* Aligne parfaitement avec le header */
+		width: 75%;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 	.footer-heading {
 
