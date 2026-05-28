@@ -112,7 +112,10 @@ pre code.hljs {
 /*
 *	Header
 */
-.navigation {
+.navigation .logo,
+.navigation nav {
+  float: none !important;
+}{
 	box-shadow: 0 2px $highlight-color;
 	padding: 0 1em;
 	margin: 0;
@@ -138,11 +141,17 @@ pre code.hljs {
     }
   }
   // Nav menu
+	.navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+	/*
   .navigation-wrapper {
   	@include outer-container;
     @include clearfix;
     position: relative;
-  }
+  }*/
   .logo {
     float: left;
     height: 4em;
@@ -166,6 +175,12 @@ pre code.hljs {
       line-height: 1.5em;
     }
   }
+	ul.navigation-menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+	/*
   ul.navigation-menu {
     clear: both;
     display: none;
@@ -181,7 +196,7 @@ pre code.hljs {
     &.show {
       display: block;
     }
-  }
+  }*/
   // Nav items
   ul li.nav-link {
     display: block;
