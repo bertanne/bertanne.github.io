@@ -177,12 +177,7 @@ pre code.hljs {
       line-height: 1.5em;
     }
   }
-	ul.navigation-menu {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-}
-	/*
+/*
   ul.navigation-menu {
     clear: both;
     display: none;
@@ -199,6 +194,11 @@ pre code.hljs {
       display: block;
     }
   }*/
+	ul.navigation-menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
   // Nav items
   ul li.nav-link {
     display: block;
@@ -225,7 +225,6 @@ pre code.hljs {
     	}
     }
   }
-}
 
 /*
 *	Body
