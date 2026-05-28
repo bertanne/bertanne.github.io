@@ -113,14 +113,15 @@ pre code.hljs {
 *	Header
 */
 .navigation .logo,
-.navigation nav {
-  float: none !important;
-}
+.navigation  nav {
+    display: flex;
+    align-items: center;
+  }
 .navigation {
   float: none !important;
 	box-shadow: 0 2px $highlight-color;
 	padding: 0 1em;
-	margin: 5em;
+	margin: 0em;
 	// Remove this to make header scrollable again
 	position: fixed;
 	top: 0;
@@ -155,11 +156,19 @@ pre code.hljs {
     position: relative;
   }*/
   .logo {
-    float: left;
-    height: 4em;
+    display: flex;
+    align-items: center;
     @include media ($tablet) {
     	padding-left: $em-base;
     }
+    img {
+      max-height: 2.5em;
+      padding-right: 1em;
+    }
+    span {
+    	font-size: 1.25em;
+    }
+  }
     img {
       max-height: 2.5em;
       margin-top: 0.75em;
