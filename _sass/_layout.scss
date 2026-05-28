@@ -437,9 +437,6 @@ pre code.hljs {
 	/*
 	*	Contact Info (left/center)
 	*/
-	/*
-	*	Contact Info (left/center)
-	*/
 	.site-contact {
 		margin-top: 1em;
 		@include span-columns(12);
@@ -484,42 +481,6 @@ pre code.hljs {
 			@extend %default-ul;
 		}
 	}
-	/*
-	.site-contact {
-		margin-top: 1em;
-		@include span-columns(12);
-		@include media ($mobile) {
-			@include span-columns(6);
-			margin-top: 0;
-			margin-right: 0;
-		}
-		font-size: 0.9em;
-		font-size: 1em;
-		i {
-			width: 1.25em;
-			text-align: center;
-		}*/
-	/*
-		@include media ($tablet) {
-			/* Passe de 4 à 6 pour occuper la moitié de l'espace */
-			@include span-columns(6); 
-			margin-top: 0;
-		}*/
-/*
-		font-size: 0.9em;
-		font-size: 1em;
-		i {
-			width: 1.25em;
-			text-align: right;
-		}
-		ul {
-			@extend %default-ul;
-		}
-	}
-*/
-	/*
-	*	Site Description/Signature (right)
-	*/
 	.site-signature {
 		margin-top: 1em;
 		@include span-columns(12);
@@ -536,6 +497,7 @@ pre code.hljs {
 			text-decoration: underline;
 		}
 	}
+}
 	/*
 	*	Site Navigation (left)
 	*/
