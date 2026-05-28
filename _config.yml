@@ -14,7 +14,7 @@ subtitle: ""
 email: anne.b.bertrand@gmail.com
 name: Anne Bertrand
 description: >
-  Site presonnel de Anne Bertrand.
+  Site personnel de Anne Bertrand.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -30,11 +30,11 @@ highlightjs_theme: "monokai-sublime"
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: "/page/:num/"
-  sort_reverse: true
+#pagination:
+#  enabled: true
+#  per_page: 5
+#  permalink: "/page/:num/"
+#  sort_reverse: true
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
